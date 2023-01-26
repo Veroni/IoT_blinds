@@ -11,3 +11,7 @@ Things you will need:
 Tools:
 - Phillips screwdriver 
 
+Installation:
+- Install Arduino IDE
+- Adjust IDE for ESP8266
+- Install Blynk app
