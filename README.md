@@ -1,6 +1,8 @@
 # IoT_blinds
 Isn't it annoying to go to the window and open or close blinds mannually?
+
 This project automates the window blinds and allows you to open and close blinds using Google Home voice command or a button on yor phone.
+
 It doesn't allow to rise blinds.. yet. (TO DO)
 
 Things you will need:
