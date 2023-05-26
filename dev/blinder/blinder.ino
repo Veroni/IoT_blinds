@@ -14,11 +14,10 @@
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 
-char auth[] = ""; //"your Blynk auth token"
-
 // Your WiFi credentials.
 char ssid[] = "";
 char pass[] = "";
+char auth[] = ""; //"your Blynk auth token"
 
 const int pwmMotor = 5;
 const int dirMotor = 0;
