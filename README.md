@@ -24,7 +24,7 @@ Installation:
 - Change the token & wifi info in dev/blinder/blinder.ino
 - 3D print the hardware part
 - Solder wires to the motor
-- Connect wires to HW-588A module using screwdriver IMG_2829.jpg
+- Connect wires to HW-588A module using screwdriver 
 - Connect ESP to computer and flash the code
 - Attach hardware piece to the motor and then to the blinds
 - Test the Blynk button
