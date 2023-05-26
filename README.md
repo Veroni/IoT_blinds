@@ -31,6 +31,7 @@ Installation:
 - Enjoy the laziness! 
 
 Too lazy to open an app and press a button on your phone? Not a problem! Follow next steps:
+
 For the Google Home Assistant use IFTTT:
 - Create IFTTT account
 - Create a new applet
