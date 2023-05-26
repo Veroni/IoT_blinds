@@ -25,6 +25,7 @@ Installation:
 - 3D print the hardware part
 - Solder wires to the motor
 - Connect wires to HW-588A module using screwdriver 
+  https://github.com/Veroni/IoT_blinds/blob/00d3cb376f71c08740fde7f776eae96accebd6fa/esp_hw-588A_motor.jpg
 - Connect ESP to computer and flash the code
 - Attach hardware piece to the motor and then to the blinds
 - Test the Blynk button
