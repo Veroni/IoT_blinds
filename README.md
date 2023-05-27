@@ -7,8 +7,7 @@ It doesn't allow to rise blinds.. yet. (TO DO)
 
 Things you will need:
 - ESP12E MCU with HW-588A modules
-- Case for 4 AA batteries
-- 4 AA batteries, 5v
+- usb wire, charger 5v
 - DC motor, 5V
 - electric wires (ex. 22 gauge)
 
@@ -20,8 +19,8 @@ Tools:
 Installation:
 - Install Arduino IDE
 - Adjust IDE for ESP8266, in Tools-> board-> choose NodeMCU 1.0 (ESP 12e Module)
-- Install Blynk app, add device, create the token
-- Change the token & wifi info in dev/blinder/blinder.ino
+- Install Blynk app, add device, create a token
+- Change id, token & wifi info in dev/blinder/blinder.ino
 - 3D print the hardware part
 - Solder wires to the motor
 - Connect wires to HW-588A module using screwdriver 
@@ -31,12 +30,13 @@ Installation:
 - Test the Blynk button
 - Enjoy the laziness! 
 
-Too lazy to open an app and press a button on your phone? Not a problem! Follow next steps:
+Too lazy to open an app and press a button on your phone? Not a problem! Follow next steps for the voice command:
 
 For the Google Home Assistant use IFTTT:
 - Create IFTTT account
-- Create a new applet
+- Connect IFTTT to your Google Home account -> settings -> works with google -> IFTTT
+- Go to IFTTT account, create a new applet
 - If This -> Google Assistant -> activate scene -> open blinds (or whatewer command you prefer)
 - Then that ->  Webhooks -> Make a webrequest -> url (change blynk url using the correct location server and tokens)
 - Repeat that for closing blinds
-- Enjoy opening blinds with Google Home Assistant 
+- Enjoy opening/closing blinds with Google Home Assistant 
